@@ -28,7 +28,7 @@ def mongraphique():
     return render_template("graphique.html")
   
   @app.route("/histogramme/")
-def MaPremiereAPI():
+def histo():
     return "<h2>Ma page histogramme</h2>"
                                                                                                                                        
 @app.route('/')
