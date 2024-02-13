@@ -27,6 +27,9 @@ def meteo():
 def mongraphique():
     return render_template("graphique.html")
   
+  @app.route("/histogramme/")
+def MaPremiereAPI():
+    return "<h2>Ma page histogramme</h2>"
                                                                                                                                        
 @app.route('/')
 def hello_world():
